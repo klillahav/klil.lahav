@@ -1,0 +1,64 @@
+*{
+    font-family: cursive;
+}
+
+:root{
+    --background:rgba(245, 242, 235, 0.5);
+}
+body {
+    background-image: url("home.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 'personal_details education military_service work_experience languages';
+    text-align: center;
+}
+.Personal_Details{
+    grid-area: personal_details;
+    background-color:var(--background) ;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.Education{
+    grid-area: education;
+    background-color:var(--background) ;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.militaryService{
+    grid-area: military_service;
+    background-color:var(--background) ;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.Work_Experience{
+    grid-area: work_experience;
+    background-color:var(--background) ;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.Languages{
+    grid-area: languages;
+    background-color:var(--background) ;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+}
+input[type="text"]{
+    border-radius: 5px;
+}
