@@ -4,6 +4,7 @@
 
 :root{
     --background:rgba(245, 242, 235, 0.5);
+    --gridColor: rgba(216,220,238,255);
 }
 body {
     background-image: url("home.jpeg");
@@ -23,6 +24,16 @@ form {
     display: grid;
     grid-template-areas: 'personal_details education military_service work_experience languages';
     text-align: center;
+    background-color: var(--gridColor);
+    animation-name: changeBackground;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    ;
+}
+@keyframes changeBackground{
+    0% {background-color: var(--gridColor);}
+    50% {background-color: wheat;}
+    100% {background-color: var(--gridColor);}
 }
 .Personal_Details{
     grid-area: personal_details;

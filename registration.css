@@ -1,0 +1,31 @@
+*{
+    font-family: cursive;
+}
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+input[type="text"]{
+    border-radius: 5px;
+}
+input[type="email"]{
+    border-radius: 5px;
+}
+input[type="password"]{
+    border-radius: 5px;
+}
+input[type="number"]{
+    border-radius: 5px;
+}
+.send {
+    border-radius: 3px;
+}
