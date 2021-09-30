@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-const sql = require("./db.js");
+const sql = require("./db");
 
 // parse requests of contenttype: application/json
 app.use(bodyParser.json());
